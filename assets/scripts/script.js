@@ -7,6 +7,7 @@ mountain1.className === "isActive"
 
 mountain1.addEventListener("click", handleClick);
 const mountain2 = document.getElementById("mountain2");
+mountain2.removeAttribute("class");
 mountain2.addEventListener("click", handleClick);
 
 function handleClick(e) {

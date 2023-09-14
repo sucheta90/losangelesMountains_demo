@@ -35,10 +35,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-light link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover active" aria-current="page" href=""><u>01. HISTORY</u></a>
+                <a class="nav-link text-light link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover active" aria-current="page" href="#section_1">01. HISTORY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href=""><u>02. TEAM</u></a>
+                <a class="nav-link text-light link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#section_2">02. TEAM</a>
               </li>
                 </ul>
             </ul>
@@ -46,29 +46,34 @@
         </div>
       </nav>
     </header>
-    <section id="hero" class="container-fluid">
-        <img src="./assets/images/Hero.png" class="img-fluid w-100" alt="">
+    <section id="hero" class="">
+        <img src="./assets/images/Hero.png" class="img-fluid w-100" alt="hero img">
     </section>
    
     <section id="section_1">
         <!-- section header -->
-        <section class="section_1-header container d-flex py-2">
+        <section class="section_1-header d-flex justify-content-between w-100 container p-2">
     
-            <span>
-                <img src="./assets/images/Logo_wMountains.png">
+            <span class="">
+                <img src="./assets/images/Logo_wMountains.png"  style="width: 50%;">
             </span>
             
-            <span class="d-flex justify-content-end align-self-center w-100">
-                <a class="section_1-header-list mx-2">01.HISTORY</a>
-                <a class="section_1-header-list mx-2">02. TEAM</a>
-            </span>
+            <span class="d-flex justify-content-end align-self-center d-flex flex-wrap-wrap">
+                <a class="section_1-header-list mx-2" href="#section_1">01. HISTORY</a>
+                <a class="section_1-header-list mx-2" href="#section_2">02. TEAM</a>
+            </span> 
                 
         </section>
         <!-- section text -->
-        <section class="section_1-text container m-5">
+        <section class="section_1-text container p-3">
             <span><img src="./assets/images/01_.png" alt=""></span>
             <span><img src="./assets/images/ HISTORY.png" alt=""></span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate sit nisi consequatur harum laudantium! Expedita, impedit. Totam ducimus earum dolorem! Ipsam sint suscipit repellat explicabo tenetur! Modi eos consequuntur aperiam.</p>
+            <span>
+                <p class="container-fluid">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Cupiditate sit nisi consequatur harum laudantium! Expedita, impedit. 
+                    Totam ducimus earum dolorem! Ipsam sint suscipit repellat explicabo tenetur! 
+                    Modi eos consequuntur aperiam.</p>
+            </span>
 
         </section>
         <img src="./assets/images/peak.png" alt="peak" class="img-fluid w-100">
@@ -139,23 +144,64 @@
 
         </section>
         <section class="section_2-nav">
-          <nav class="d-100 container">
-            <ul class="d-flex w-100 m-0">
-                <li ><button id="mountain1" type="button" class="btn"><u>MOUNTAIN 1</u></button></li>
-                <li ><button id="mountain2" type="button" class="btn"><u>MOUNTAIN 2</u></button></li>
-            </ul>
+          <nav class="d-100 container px-5">
+            
+            <button id="mountain1"  class="btn btn-lg">MOUNTAIN 1</button>
+            <button id="mountain2" class="btn btn-lg">MOUNTAIN 2</button>
+        
           </nav>
         </section>
-        <div>
+        <div id="section_2-image-container">
             <img src="" alt="" id="section2-img" class="img-fluid w-100">
+            <div id="schedule">
+                <h3 style="color: rgb(65, 79, 107); font-weight: 800">SCHEDULE</h3>
+                <table >
+                
+                    <tr>
+                        <td class="p-3">
+                            25 Nov 2016
+                        </td>
+                        <td>
+                            Vestibulum viverra
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            28 Nov 2016
+                        </td>
+                        <td>
+                            Vestibulum viverra
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            18 Dec 2016
+                        </td>
+                        <td>
+                            Vestibulum viverra
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            7 Jan 2017
+                        </td>
+                        <td>
+                            Vestibulum viverra
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
         </div>
+        
+        
        
     </section>
-    <footer >
+    <footer class="py-2 d-flex ">
 
-        <div class="container d-flex p-1 justify-content-between border-danger">
-            <span><img src="./assets/images/Logo_wMountains.png" alt=""></span>
-            <span class="align-self-center">COPYRIGHT 2016. ALL RIGHTS RESERVED</span>
+        <div class="container d-flex p-1 justify-content-between" id="footer_content">
+            <span><img src="./assets/images/Vector Smart Object.png"/><img src="./assets/images/LOSANGELES MOUNTAINS.png" alt=""></span>
+            <span class="align-self-center"><img src="./assets/images/COPYRIGHT 2016. ALL RIGHTS RESERVED_.png" alt=""></span>
         </div>
         
     </footer>
