@@ -6,14 +6,10 @@
 li {
   list-style: none;
 }
-a {
-  text-decoration: underline;
-}
-#hero {
-  /* background-image: url("../images/hero.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh; */
+p {
+  line-height: 2;
+  gap: 5px;
+  word-spacing: 2px;
 }
 .hero_header {
   /* border: 1px solid salmon; */
@@ -21,94 +17,44 @@ a {
   align-items: center;
   justify-content: center;
 }
-#main_header {
-  position: relative;
-  top: 9.5em;
-  margin-left: 14rem;
-  width: 30rem;
-}
 
 header {
   position: absolute;
   width: 100%;
 }
 
-ul {
-  color: white;
-
-  width: 20%;
-  justify-content: space-evenly;
+#navbarSupportedContent ul {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
 
 .carousel_container {
   background-color: rgb(95, 96, 109);
   opacity: 0.9;
 }
-.carousel_container ul {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1em;
+#section_1 {
+  position: relative;
 }
-.section_1-header-list {
-  color: rgb(95, 96, 109);
+.section_1-text {
+  position: absolute;
 }
 
-/* #section_1{
-    background-image: ;
+.section_2-nav {
+  background-color: rgb(65, 79, 107);
+}
+
+/* .Rectangle_20 {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  left: -5px;
+  top: 1984px;
+  width: 1658px;
+  height: 40px;
+  z-index: 31;
 } */
 
-/* .Hero {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1600px;
-    height: 825px;
-    z-index: 115;
-  }
-  .Image {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1600px;
-    height: 2644px;
-    z-index: 108;
-  }
-  .Layer_628 {
-    background-image: url("Layer 628.png");
-    opacity: 0.502;
-    position: absolute;
-    left: 0px;
-    top: 420px;
-    width: 1600px;
-    height: 1464px;
-    z-index: 107;
-  }
-  .LOSANGELES_MOUNTAINS_copy {
-    font-size: 13.29px;
-    font-family: "Bebas";
-    color: rgb(77, 77, 77);
-    text-transform: uppercase;
-    line-height: 1.079;
-    text-align: left;
-    -moz-transform: matrix( 8.61223977351529,0,0,8.68890863484864,0,0);
-    -webkit-transform: matrix( 8.61223977351529,0,0,8.68890863484864,0,0);
-    -ms-transform: matrix( 8.61223977351529,0,0,8.68890863484864,0,0);
-    position: absolute;
-    left: 671.952px;
-    top: 356.037px;
-    z-index: 106;
-  }
-  .Layer_627 {
-    background-image: url("Layer 627.png");
-    opacity: 0.29;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1600px;
-    height: 912px;
-    z-index: 103;
-  }
-   */
+footer {
+  background-color: rgb(65, 79, 107);
+}
