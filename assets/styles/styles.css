@@ -45,16 +45,13 @@ header {
   background-color: rgb(65, 79, 107);
 }
 
-/* .Rectangle_20 {
-  background-color: rgb(65, 79, 107);
-  position: absolute;
-  left: -5px;
-  top: 1984px;
-  width: 1658px;
-  height: 40px;
-  z-index: 31;
-} */
-
 footer {
   background-color: rgb(65, 79, 107);
+  opacity: 0.9;
+  color: rgb(157, 163, 175);
+}
+
+.isActive {
+  background-color: grey;
+  color: rgb(65, 79, 107);
 }
